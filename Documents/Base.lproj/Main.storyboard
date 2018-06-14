@@ -85,7 +85,16 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="AXA-nm-NhY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="AbB-tX-1lV"/>
+                    <navigationItem key="navigationItem" title="Title" id="AbB-tX-1lV">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="IRJ-SV-2bJ">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yrb-aP-COv" userLabel="Save">
+                                <rect key="frame" x="276" y="5" width="83" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Save"/>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="79d-Nx-z7R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
