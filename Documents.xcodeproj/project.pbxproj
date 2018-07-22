@@ -87,7 +87,6 @@
 		6BBA595F20D2D606008991A2 /* Documents */ = {
 			isa = PBXGroup;
 			children = (
-				6BD4857B20EED70B002241B8 /* Model */,
 				6BBA596020D2D606008991A2 /* AppDelegate.swift */,
 				6BBA598320D2DB04008991A2 /* DocumentViewController.swift */,
 				6BD4857720EED459002241B8 /* DocumentListViewController.swift */,
@@ -97,6 +96,7 @@
 				6BBA596A20D2D608008991A2 /* Assets.xcassets */,
 				6BBA596F20D2D608008991A2 /* Info.plist */,
 				6BBA596720D2D606008991A2 /* Documents.xcdatamodeld */,
+				6BD4857B20EED70B002241B8 /* Model */,
 			);
 			path = Documents;
 			sourceTree = "<group>";

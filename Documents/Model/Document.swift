@@ -11,6 +11,7 @@ import Foundation
 import Foundation
 
 struct Document {
+    
     let url: URL
     let name: String
     let size: UInt64
